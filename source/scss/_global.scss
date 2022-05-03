@@ -1,12 +1,12 @@
 body {
-    font: 1rem/16px Raleway;
-    background: $black;
-    color: #ccc;
+    font: 1rem/16px 'Noto Sans', sans-serif;;
+    background: $white;
+    color: $black;
     margin:0;
     padding: 0;
 }
 a {
-    color: $white;
+    color: $green;
     &:hover,
     &:active {
         color: $aqua;

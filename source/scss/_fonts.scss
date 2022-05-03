@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight:100;
+    src: local("Museo"),
+         url("/fonts/museo100.woff") format("woff");
+  }
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight:400;
+    src: local("Museo"),
+         url("/fonts/museo300.woff") format("woff");
+  }
+@font-face {
+    font-family: "Museo";
+    font-style: italic;
+    font-weight:400;
+    src: local("Museo"),
+         url("/fonts/museo300it.woff") format("woff");
+  }
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight:700;
+    src: local("Museo"),
+         url("/fonts/museo700.woff") format("woff");
+  }

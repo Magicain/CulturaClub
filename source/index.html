@@ -5,9 +5,57 @@
 })
 <body>
     @@include('html/header.html',{})
-     <main class="block"><h1>заголовок</h1><img src="@img/logo.jpg">какой-то текст</main>
+     <main class="main">
+         <section class="slider-main block">
+            <div class="slider-main__wrapper">
+                <div class="slider-main__items"><img src="@img/slider/1.jpg" alt="Slider" class="slider-main__img"></div>
+                <div class="slider-main__item"><img src="@img/slider/2.jpg" alt="Slider" class="slider-main__img"></div>
+                <div class="slider-main__item"><img src="@img/slider/3.jpg" alt="Slider" class="slider-main__img"></div>
+                <div class="slider-main__item"><img src="@img/slider/4.jpg" alt="Slider" class="slider-main__img"></div>
+                <div class="slider-main__item"><img src="@img/slider/5.jpg" alt="Slider" class="slider-main__img"></div>
+                <div class="slider-main__item"><img src="@img/slider/6.jpg" alt="Slider" class="slider-main__img"></div>
+            </div>
+         </section>
+         <section class="block-main">
+             <div class="block-main__wrapper">
+                 <div class="block-main__video">
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/o7woamn-KB0" title="YouTube video player" ></iframe>
+                    <!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen -->
+                 </div>
+                 <div class="block-main__line"></div>
+                 <div class="block__text">
+                    <p>Лекторий CULTURA предлагает Вашему вниманию новый фильм филолога Юлианы Каминской из цикла "Стихи на дом" - о немецком поэте-кабаретисте и песеннике Рихарде Демеле, представляющем культуру начала ХХ века. Песни и стихи в сценических воплощениях, подготовленных профессиональными актерами петербургских театров, сопровождает литературоведческий комментарий одного из самых знаменитых лекторов страны. Будем рады поддержке некоммерческого проекта.<span>С добрыми чувствами, Анастасия Гроховская и Ваш лекторий CULTURA</span></p>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__wrapper block">
+                    <div class="about__title block__title">Лекторий CULTURA</div>
+                    <div class="about__subtitle block__subtitle">Обо всем в искусстве понятно и увлекательно</div>
+                    <div class="block__text">
+                        <p> Лекторий CULTURA создан в 2015 году для того, чтобы распространять и сохранять общеевропейские ценности в отечественной культуре, укреплять ее традиционную открытость мировому художественному и научному наследию, а также упрочивать многообразные творческие связи России с другими странами.</p>
+                        <ul class="block__list">Основные цели лектория:
+                            <li class="block__list-item">развитие российского образования и гуманитарной науки;</li>
+                            <li class="block__list-item">распространение демократических и гуманистических ценностей в обществе;</li>
+                            <li class="block__list-item">осмысление связей российской культуры с традициями западноевропейской цивилизации.</li>
+                        </ul>
+                        <p>За 4 года в лектории прошли более 50 бесплатных лекций и фестивалей, на которые пришли более 8000 человек. Видеозаписи лекций просмотрели более 70000 человек.</p>
+                        <p>На встречах лектория можно оставить добровольные пожертвования для старейшей петербургской благотворительной организации «Ночлежка», помогающей бездомным людям.</p>
+                    </div>
+                    <div class="about__video"><iframe width="100%" height="400" src="https://www.youtube.com/embed/c_UT0vvBOj8?list=PL-_cKNuVAYAVmcLdShV7lamewzXEVFw4l" title="YouTube video player"></iframe></div>
+                    <!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen -->
+                    <div class="about__social-wrap">
+                        <div><a href="http://vk.com/culturaclubspb" class="about__social-item"><svg class="icon"><use xlink:href="#vk-square"></use></svg></a></div>
+                        <!--div><a href="https://www.facebook.com/groups/culturaclub.spb/" class="about__social-item"> <svg class="icon"><use xlink:href="#facebook-app"></use></svg></a></div-->
+                        <div><a href="http://instagram.com/culturaclub.spb" class="about__social-item"><svg class="icon"><use xlink:href="#black-instagram"></use></svg></a></div>
+                    </div>
+                 </div>
+             </div>
+
+         </section>
+     </main>
     @@include('html/footer.html',{})
-    
-    <script src="js/app.min.js"></script>
+    @@include('html/script.html',{})
 </body>
 </html>

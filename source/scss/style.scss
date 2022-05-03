@@ -38,15 +38,20 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 $black: #0f1110;
-$darkgray: #444;
-$gray: #bbb;
+$green: #7aba05;
+$gray: #999999;
 $aqua: #0b5a5a;
-$white: #fff;
+$white: #ffffff;
 
 $bp-d: 1280px;
 $bp-t: 767px;
 $bp-m: 479px;
 
-@import '_menu.scss',
-		'_footer',
-		'_global',
+@import '_fonts',
+'_menu.scss',
+'_footer',
+'_global',
+'_main',
+'_about'
+
+
